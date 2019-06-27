@@ -1,0 +1,118 @@
+body {
+    max-width: 1170px;
+    margin: auto;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #737373;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#top .navigation .navbar {
+	background: #0a0a0e;
+}
+#top .navigation .collapse li {
+	padding-left: 20px;
+}
+#top .navigation .collapse li a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #a4a4a4;
+	text-transform: uppercase;
+}
+#top .navigation .collapse li a:hover {
+	color: #ffffff;
+	border-top: 1px solid #ff0036;
+	border-bottom: 1px solid #ff0036;
+}
+#top .navbar-toggler {
+	background: #ff0036;
+}
+/**************************#top-section****************************/
+#top-section {
+	 background-image: url(../img/background.png);
+	 background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     height: 700px;  //поміняти
+}
+#top-section .sl {
+	margin: 0 auto;
+	width: 90%;
+}
+#top-section .inform {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 180px;
+}
+#top-section .inform h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: lowercase;
+	padding-bottom: 40px;
+}
+#top-section .inform .color_text {
+	color: #ff0036;
+}
+#top-section .inform p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	width: 90%;
+	text-align: center;
+}
+
+#top-section .inform button {
+	width: 170px;
+	height: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	background: #131313;
+	border: 1px solid #131313;
+}
+#top-section .inform button:hover {
+	background-color: #ff0036;
+	border: 1px solid #ff0036;
+}
+
+@media screen and (max-width: 1024px) {
+    #top .navigation .collapse li {
+	padding-left: 10px;
+  }
+    #top .navigation .collapse li a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #a4a4a4;
+	text-transform: uppercase;
+  }	
+}
+@media screen and (max-width: 414px) { 
+    #top-section .sl {
+	margin: 0 auto;
+	width: 80%;
+  }
+   #top-section .inform .nav_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  }
+  
+}
+

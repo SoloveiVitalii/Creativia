@@ -1,0 +1,122 @@
+body {
+    max-width: 1170px;
+    margin: auto;
+}
+section {
+	padding-top: 40px;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #737373;
+	text-align: center;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: lowercase;
+	color: #fff;
+	text-align: center;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 20px;
+	color: #ff0036;
+}
+#clients {
+	 background-image: url(../img/background_2.png);
+	 background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     height: 100%; 
+}
+#clients h1 .color-text {
+	color:  #ff0036;
+}
+#clients p {
+	padding-top: 40px;
+}
+#clients p .color-text {
+	color:  #ff0036;
+}
+#clients .happy-clients {
+	padding-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+#clients .happy-clients  .sl {
+	margin: 0 auto;
+	width: 30%;
+}
+#clients .happy-clients .client {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#clients .happy-clients .client .review {
+	width: 60% ;
+}
+#clients .button-nav {
+	width: 60%;
+	padding-left: 20px;
+}
+#clients .button-nav .first_but img {
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#clients .button-nav .first_but img:hover {
+	 transform: scale(1.10);
+}
+#clients .button-nav .second_but img {
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#clients .button-nav .second_but img:hover {
+	 transform: scale(1.10);
+}
+@media screen and (max-width: 768px) { 
+    #clients .happy-clients {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+ }
+    #clients .button-nav {
+    	padding-top: 40px;
+    	width: 100%;
+    	padding-left: 0;
+    	display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+    }
+    #clients .happy-clients  .sl {
+	   width: 50%;
+    }
+    #clients .happy-clients .client .review {
+	width: 80% ;
+   }
+}
+@media screen and (max-width: 414px) {
+    #clients .button-nav {
+    	width: 70%;
+    }
+    #clients p {
+    	font-size: 15px;
+    }
+}

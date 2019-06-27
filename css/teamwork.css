@@ -1,0 +1,174 @@
+body {
+    max-width: 1170px;
+    margin: auto;
+}
+section {
+	padding-top: 40px;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #737373;
+	text-align: center;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: lowercase;
+	color: #262626;
+	text-align: center;
+}
+#team .color-text {
+	color:  #ff0036;
+}
+#team p {
+	padding-top: 40px;
+}
+#team .container .card-deck {
+	padding-top: 100px;
+}
+#team .container .card-deck .card .card-body h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #5c5c5c;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+}
+#team .container .card-deck .card .card-body h5:hover {
+	color:  #ff0036;
+	
+}
+#team .container .card-deck .card .card-body a {
+	text-decoration: none;
+}
+#team .container .card-deck .card:hover {
+	border: 1px solid #262626;
+}
+
+#team .container .card-deck .card .foto {
+	position: relative;
+	width: auto;
+    height: auto;
+}
+#team .container .card-deck .card .foto .block {
+	width: auto;
+	height: 225px;
+	display: none;
+	position: absolute;
+	left:0;
+	bottom:0;
+	right:0;
+	background:rgba(26,26,26, 0.9);
+	/*padding: 20px;*/
+	box-shadow:0 5px 5px rgba(0,0,0,0.5);
+}
+#team .container .card-deck .foto:hover .block {
+      display: block;
+}
+
+#team .container .card-deck .card .foto .block .link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 90px;
+}
+#team .container .card-deck .card .foto .block .link img {
+	padding: 5px;
+}
+/*****************************skiils***********************************/
+#skiils {
+	padding-top: 200px;
+}
+#skiils .color-text {
+	color:  #ff0036;
+}
+#skiils p {
+	padding-top: 40px;
+}
+#skiils .chart-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  fill: #000;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+}
+#skiils .chart-number {
+  font-size: 10px;
+  line-height: 1;
+  text-anchor: middle;
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+#skiils .card-group .card .card-body h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #262626;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+}
+#skiils .card-group .card .card-body p {
+	width: 90%;
+}
+#skiils .container {
+	padding-top: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+   #team .container .card-deck .card .foto .block {
+   	height: 185px;
+   }
+}
+@media screen and (max-width: 768px) {
+   #team .container .card-deck .card .foto .block {
+   	height: 132px;
+   }
+   #team .container .card-deck .card .foto .block .link {
+   	padding-top: 40px;
+   }
+}
+@media screen and (max-width: 414px) {
+    #team .container .card-deck .card .foto .block {
+   	height: 340px;
+   }
+   #team .container .card-deck .card .foto .block .link {
+   	padding-top: 120px;
+   }
+}
+@media screen and (max-width: 375px) { 
+   #team .container .card-deck .card .foto .block {
+   	height: 305px;
+   }
+   #team .container .card-deck .card .foto .block .link {
+   	padding-top: 120px;
+   }
+   #team p {
+    font-size: 15px;
+   }
+}
+@media screen and (max-width: 360px) {
+	#team .container .card-deck .card .foto .block {
+   	height: 292px;
+   }
+   #team .container .card-deck .card .foto .block .link {
+   	padding-top: 120px;
+   }
+}
+@media screen and (max-width: 320px) { 
+   #team .container .card-deck .card .foto .block {
+   	height: 256px;
+   }
+   #team .container .card-deck .card .foto .block .link {
+   	padding-top: 120px;
+   }
+}
+
+
+
